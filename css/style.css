@@ -1,0 +1,557 @@
+body
+{
+
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	overflow:auto;
+}
+.contener
+{
+	width:1200px;
+	margin:auto;
+	overflow: hidden;
+	
+}
+.clear{
+	clear: both;
+}
+/* start header */
+a
+{
+	color: #000;
+}
+
+header
+{
+	background-image:url("../images/header2.jpg");
+	background-size:cover;
+	height:600px;
+	
+}
+header nav
+{
+	overflow:hidden;
+	
+}
+header nav h1
+{
+	display:inline-block;
+	text-transform: uppercase;
+	color:#000;
+	float: left;
+	margin:20px 100px 0 0;
+	
+}
+header nav ul
+{
+	list-style: none;
+	marging-top:10px;
+	padding: 0;
+	overflow:hidden;
+	
+}
+
+header nav ul li:last-child:after
+{
+	content: " "
+}
+header nav ul li:after
+{
+	content: " |"
+}
+header nav ul li
+{
+	display:inline-block;
+	float:left;
+    color:#000;
+	padding-right:15px;
+	margin-top:10px;
+	text-transform: capitalize;
+}
+
+/* end header */
+
+/* start aside */
+header aside
+{
+	width:220px;
+	height:600px;
+	background-color:rgba(250,216,179,.70);
+	float: right;
+	position: absolute;
+	top:0;
+	left:83.6%;
+	
+}
+header aside h1
+{
+	margin-top:150px;
+	padding:0 50px;
+	text-transform:uppercase;
+}
+header aside p
+{
+	padding:0 20px;
+	text-align:left
+}
+header aside button
+{
+	margin-left: 60px;
+	background-color: inherit;
+	padding: 5px;
+	border:1px solid #000;
+	border-radius:5px;
+	text-transform: uppercase;
+
+}
+
+/*  start womanClass */
+.womanClass
+{
+	background-color:#E39498;
+	height:450px
+}
+
+.womanClass .contener div
+{
+	height:400px;
+	overflow:hidden;
+	float:left;
+
+	
+}
+.womanClass img
+{
+	
+	width: 500px;
+	height:500px;
+}
+.womanClass .contener .join
+{
+	float:left;
+	display:inline-block;
+	width: 30%;
+	margin:130px 40px ;
+}
+.womanClass .contener .join h1
+{
+	text-transform: uppercase;
+}
+.womanClass .contener .join button
+{
+	background-color: #A4ADBC;
+	border:1px solid #000;
+	border-radius:5px;
+	padding: 5px;
+	margin-left: 90px;
+	text-transform: uppercase;
+
+}
+
+/*  end womanClass */
+
+
+/*  start manClass */
+.manClass
+{
+	background-color:#A4ADBC;
+	height:450px
+}
+
+.manClass .contener div
+{
+	height:400px;
+	overflow:hidden;
+	float:right;
+
+	
+}
+.manClass img
+{
+	
+	width: 500px;
+	height:500px;
+}
+.manClass .contener .join
+{
+	float:right;
+	display:inline-block;
+	width: 30%;
+	margin:130px 40px ;
+}
+.manClass .contener .join h1
+{
+	text-transform: uppercase;
+}
+.manClass .contener .join button
+{
+	background-color: #E39498;
+	border:1px solid #000;
+	border-radius:5px;
+	padding: 5px;
+	margin-left: 90px;
+	text-transform: uppercase;
+
+}
+
+/*  end manClass */
+
+
+
+
+/*  start aboutUs */
+
+.aboutUs
+{
+	background-color:#F9D5B3;
+	height:500px
+}
+
+.aboutUs .contener div
+{
+	height:500px;
+	overflow:hidden;
+	float:left;
+
+	
+}
+.aboutUs video
+{
+	
+	margin-top:10px;
+	width: 600px;
+	height:450px;
+}
+.aboutUs .contener .info
+{
+	float:left;
+	display:inline-block;
+	width: 28%;
+	margin:50px 40px ;
+}
+.aboutUs .contener .info h1
+{
+	text-transform: uppercase;
+}
+.aboutUs .contener .info button
+{
+	background-color: #fff;
+	border:1px solid #000;
+	border-radius:5px;
+	padding: 5px;
+	margin-left: 90px;
+	text-transform: uppercase;
+}
+
+/*  end aboutUs */
+
+/*  start ourClass */
+
+
+.ourClass
+{
+	height:850px;
+	overflow: hidden;
+}
+.ourClass .contener h1
+{
+	text-transform:uppercase;
+	text-align: center
+}
+.ourClass .contener .classes .classImg 
+
+{
+	width: 30%;
+	height:350px;
+	
+	background-size: 100% 100%;
+	position: relative;
+	float: left;
+	margin:10px;
+	border-radius:10px;
+	 
+}
+.ourClass .contener .classes .classImg .text
+{
+	background-color:rgba(164,173,188,0.50);
+	height: 70px;
+	position: absolute;
+	top:80%;
+	left:0%;
+	width: 100%
+		
+}
+.ourClass .contener .classes .classImg h3,
+.ourClass .contener .classes .classImg p
+{
+	
+	text-align: left;
+	padding:0 0 0 15px;
+	margin: 10px;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.ourClass .contener .classes #running
+{
+	background-image:url("../images/running.jpg");
+	
+}
+.ourClass .contener .classes #yoga
+{
+	background-image:url("../images/yoga.jpg");
+	
+}
+.ourClass .contener .classes #loseWeight
+{
+	background-image:url("../images/loseWeight.jpg");
+	
+}
+.ourClass .contener .classes #dance
+{
+	background-image:url("../images/dance.jpg");
+	
+}
+.ourClass .contener .classes #boxing
+{
+	background-image:url("../images/boxing.jpg");
+	
+}
+.ourClass .contener .classes #personal
+{
+	background-image:url("../images/personal.jpg");
+	
+}
+
+
+/*  end ourClass */
+
+
+
+
+/*start ourTeam */
+
+
+.ourTeam
+{
+	height:530px;
+	background-color: #A4ADBC;
+}
+.ourTeam .contener h1
+{
+	text-transform:uppercase;
+	text-align: center
+}
+.ourTeam .contener .team .teamImg 
+
+{
+	width: 30%;
+	height:400px;
+	
+	background-size: 100% 100%;
+	position: relative;
+	float: left;
+	margin:5px;
+	border-radius:10px;
+	 
+}
+.ourTeam .contener .team .teamImg .text:hover
+{
+	top:60%;
+	transition: 1.1s;
+}
+.ourTeam .contener .team .teamImg .text
+{
+	background-color:rgba(164,173,188,0.50);
+	height: 160px;
+	position: absolute;
+	top:83%;
+	left:0%;
+	width: 100%;
+	transition-timing-function: ease-in-out;
+		
+}
+.ourTeam .contener .team .teamImg h3,
+.ourTeam .contener .team .teamImg p
+{
+	
+	text-align: center;
+	padding:0 0 0 15px;
+	margin: 10px;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+}
+.ourTeam .contener .team .teamImg p:last-of-type i
+
+{
+	padding-right: 20px
+}
+
+.ourTeam .contener .team #coach1
+{
+	background-image:url("../images/coach1.jpg");
+	
+}
+.ourTeam .contener .team #coach2
+{
+	background-image:url("../images/coach2.jpg");
+	 
+	
+}
+.ourTeam .contener .team #coach3
+{
+	background-image:url("../images/coach3.jpg");
+	
+}
+
+
+
+
+/*end ourTeam */
+
+
+
+
+
+
+/*start ourPlan */
+
+
+.ourPlan
+{
+	height:680px;
+	background-color: #fff;
+	overflow: hidden
+}
+.ourPlan .contener h1
+{
+	text-transform:uppercase;
+	text-align: center
+}
+.ourPlan .contener .plan .planImg 
+
+{
+	width: 30%;
+	height:550px;
+	background-size: 100% 100%;
+	position: relative;
+	float: left;
+	margin:5px;
+	border-radius:10px;
+	background-color: #fff;
+	border: 3px solid #E39498;
+	 
+}
+
+.ourPlan .contener .plan .planImg .text
+{
+	background-color:#E39498;
+	height: 80px;
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 100%;
+		
+}
+.ourPlan .contener .plan .planImg .text h2
+{
+	
+	text-align: center;
+	padding:20px;
+	margin: 10px;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+.ourPlan .contener .plan .planImg  h4,
+.ourPlan .contener .plan .planImg  p
+{
+	text-align: center;
+	margin: 20px;
+}
+.ourPlan .contener .plan .planImg  p:first-of-type span
+{
+	font-size:30px;
+	color: #E39498
+}
+.ourPlan .contener .plan .planImg  p:first-of-type
+{
+	margin-top: 120px
+}
+
+.ourPlan .contener .plan .planImg  button
+{
+	background-color:rgba(227,148,152,1);
+	align-items: center;
+	margin-left: 36%;
+	padding:5px 15px;
+	border-radius: 5px
+}
+
+
+/*end ourPlan */
+
+
+/*  start contactUs */
+.contactUs
+{
+	background-image: url(../images/contact.png);
+	background-size:100% 100%;
+	height:600px;
+}
+
+.contactUs .contener div
+{
+	height:100px;
+}
+.contactUs .contener .contact
+{
+	
+	display:block;
+	width: 22%;
+	margin-top:40px;
+	margin-left:100px;
+}
+.contactUs .contener .contact h2
+{
+	text-transform: uppercase;
+	color: #E39498;
+}
+
+
+
+/*  end contactUs */
+
+
+/*  start footer */
+
+
+footer
+{
+	background-color: #000;
+	color: #fff
+}
+footer span:first-child
+{
+	float: left;
+}
+footer span:last-of-type
+{
+	float: right;
+}
+
+footer span:last-of-type i
+{
+	padding-right: 20px;
+	color: #fff;
+}
+
+
+/*  end footer */
+
+
+
+
+
